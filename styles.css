@@ -230,7 +230,7 @@ h3 {
     float: left;
     width: 50%;
     margin-top: 0;
-    padding: 5%;
+    padding: 1% 5%;
 }
 
 .sustain-info h3,
@@ -257,10 +257,16 @@ h3 {
 }
 
 .mix-match-info {
-    width: 50%;
+    width: 100%;
     float: right;
     margin-top: 0;
+    /* padding: 5%; */
+}
+
+.mix-match-text{
     padding: 5%;
+    padding: 5%;
+    margin-left: 50%;
 }
 
 footer {
@@ -348,19 +354,7 @@ form input[type="email"] {
     padding-left: 10px;
     /* float: left; */
 }
-/* form a .btn {
-    width: 100px;
-    padding: 5px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    float: right;
-    background-color: #000;
-    text-align: center;
-    margin-bottom: 20px;
-    margin-left: 0;
-    margin-top: 0;
-    border: none;
-} */
+
 
 .btn-sub {
     color: #fff;
@@ -391,7 +385,7 @@ line-height: 3.8rem;
 /* Media Queries for responsiveness */
 
 
-@media (max-width:1255px){
+/* @media (max-width:1255px){
     .contact-info p {
     line-height: 20px;
 }
@@ -399,9 +393,9 @@ line-height: 3.8rem;
     line-height: 0px;
     
 }
-}
+} */
 
-/*fix Button for hand crafted 1200px */
+/*fix Button for hand crafted */
 
 @media (max-width:1200px) {
     .craft-info p {
@@ -409,3 +403,52 @@ line-height: 3.8rem;
 
 }
 }
+
+@media (min-width:1000px) and (max-width:1155px) {
+    
+    .hero-text {
+        left: 15%;
+    }
+
+    .social {
+        top: 60%;
+    }
+    
+    
+    .craft-info .btn {
+        margin-left: 33%;
+    }
+
+     .gold-one {
+        margin-left: 13%;
+    }
+
+    .sustain-info {
+        margin-top: -18px;
+    }
+
+    .mix-match-text {
+        margin-top: -18px;
+    }
+
+    
+
+    
+
+   
+}
+
+@media (min-width:1000px) and (max-width:1255px) {
+    .contact-info p{
+        font-size: 1.5rem;
+    }
+
+ }
+
+
+
+/* @media (max-width:1113px) {
+    .gold-one {
+        margin-left: 13%;
+    }
+} */
