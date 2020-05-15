@@ -40,6 +40,7 @@ h3 {
     font-size: 5rem;
     font-family: 'Italiana';
     font-weight: 400;
+    text-transform: uppercase;
 }
 
 .btn {
@@ -51,7 +52,6 @@ h3 {
     font-weight: 400;
     font-size: 2.5rem;
     line-height: 2.9rem;
-
 }
 
 
@@ -119,15 +119,14 @@ h3 {
 }
 
 .social {
-   width: 1%;
-list-style: none;
-position: absolute;
-top: 85%;
-left: 93%;
-z-index: 100;
-margin: 0 auto;
-    
-    
+    width: 1%;
+    list-style: none;
+    position: absolute;
+    top: 70%;
+    bottom: 15%;
+    left: 93%;
+    z-index: 100;
+    margin: 0 auto; 
 }
 
 .social-icon {
@@ -402,5 +401,11 @@ line-height: 3.8rem;
 }
 }
 
-/*fix read more at 1230px */
+/*fix Button for hand crafted 1200px */
 
+@media (max-width:1200px) {
+    .craft-info p {
+    padding-bottom: 15px;
+
+}
+}
