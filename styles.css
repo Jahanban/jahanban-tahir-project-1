@@ -304,11 +304,9 @@ margin-bottom: 2%;
     width: 100%;
     float: right;
     margin-top: 0;
-    /* padding: 5%; */
 }
 
 .mix-match-text{
-    /* padding: 5%; */
     padding: 5%;
     margin-left: 50%;
 }
@@ -317,7 +315,7 @@ footer {
     width: 100%;
     background-color: #201E21;
     color: #fff;
-     padding: 5%;
+    padding: 5%;
     margin-top: 0;
 }
 
@@ -334,7 +332,6 @@ footer {
 .navbar-end a li {
     list-style: none;
     margin-top: 12px;
-    /* margin-left: 60px; */
     color: #FFF;
     font-size: 2rem;
     line-height: 12px;
@@ -345,18 +342,12 @@ footer {
 
 
 .update-info {
-    /* margin-left: 5%; */
     margin-left: 15%;
-
     float: left;
     width: 50%;
 }
 
-/* .contact-info {
-    text-align: right;
-    margin-left: 65%;
-    width: 30%;
-}  */
+
 .contact-info {
 text-align: right;
 margin-left: 5%;
@@ -387,9 +378,7 @@ max-width: 94%;
     line-height: 9px;
 }
 
-/* form {
-    width: 100%;
-} */
+
 
 form input[type="email"] {
     width: 75%;
@@ -441,7 +430,6 @@ form input[type="email"] {
 
 @media (max-width: 1263px){
     .hand-craft-text p {
-    
     margin-bottom: 6%;
 }
 }
@@ -450,8 +438,6 @@ form input[type="email"] {
     .contact-info p{
         font-size: 1.5rem;
     }
-
-
 
  } 
 
@@ -507,7 +493,12 @@ form input[type="email"] {
 .social-icon{
     float: left;
 }
+   .sustain-info h3,
+    .mix-match-text h3 {
+        margin-top: 5%;
+    }
 }
+
 
 @media (max-width: 980px) {
     .sustain-info h3,
@@ -537,6 +528,68 @@ form input[type="email"] {
     .hand-craft-text a.btn {
     margin-left: 45%;
 }
+
+  .fav-icons ul {
+        padding-left: 0px;
+    }
+
+    .nav-end {
+        float: none;
+        width: 100%;
+        background-color: red;
+    }
+
+    .navbar-end a {
+        float: left;
+        padding: 5%;
+        /* margin-bottom: 3%; */
+    }
+
+    .update-info {
+        float: none;
+        margin-top: 15%;
+        margin-left: 28%;
+         /* background-color: red; */
+    }
+
+    .update-info h3 {
+        margin-left: 28%;
+        padding-top: 5%;
+        margin-bottom: 10%;
+    }
+
+    .update-info p {
+        margin-left: 5%;
+    }
+
+    .contact-info {
+        text-align: center;
+        margin-top: 5%;
+        /* margin-left: 30%; */
+    }
+    .contact-info h3 {
+        margin-left: 0;
+    }
+
+    
+
+    form input[type="email"] {
+        margin-left: 0%;
+    margin-right: 2%;
+    width: 100%;
+}
+
+.btn-sub {
+    width: 70%;
+    margin-top: 25%;
+    margin-left:35%
+}
+
+.rights p {
+    padding-left: 9%;
+}
+
+    
 
 
 
