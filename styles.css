@@ -444,7 +444,7 @@ line-height: 3.8rem;
 }
 }
 
-@media (min-width:1000px) and (max-width:1255px) {
+@media (min-width: 950px) and (max-width:1255px) {
     .contact-info p{
         font-size: 1.5rem;
     }
@@ -490,7 +490,27 @@ line-height: 3.8rem;
         margin-left: 10%;
     }
 
-    .sustain-info p {
+    .sustain-info p,
+    .mix-match-text p {
         margin-bottom: 5%;
+    }
+}
+
+@media (max-width: 1000px) {
+    header ul.social {
+    width: 50%;
+    top: 92%;
+    left: 84%;
+}
+
+.social-icon{
+    float: left;
+}
+}
+
+@media (max-width: 980px) {
+    .sustain-info h3,
+    .mix-match-text h3 {
+        margin-top: 0;
     }
 }
