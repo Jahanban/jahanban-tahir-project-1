@@ -473,17 +473,7 @@ line-height: 3.8rem;
         margin-top: -18px;
     }
 
-    
-
-    
-
-   
 }
-
-
-
-
-
 
  @media (max-width:1114px) {
 
@@ -494,3 +484,13 @@ line-height: 3.8rem;
         margin-left: 13%;
     }
 } 
+
+@media (max-width: 1014px) {
+    .hand-craft-text p {
+        margin-left: 10%;
+    }
+
+    .sustain-info p {
+        margin-bottom: 5%;
+    }
+}
