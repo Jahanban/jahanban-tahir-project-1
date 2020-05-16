@@ -66,7 +66,7 @@ header {
     height: 100%;
     background-position: top;
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: cover;
     background-attachment: fixed;
     height: 630px;
     overflow: hidden;
@@ -435,6 +435,8 @@ line-height: 3.8rem;
 
 }
 
+
+
 @media (max-width: 1263px){
     .hand-craft-text p {
     
@@ -450,13 +452,6 @@ line-height: 3.8rem;
 
 
  } 
-
-
-
-
-
-
-
 
 @media (min-width:1000px) and (max-width:1190px) {
     
@@ -490,7 +485,11 @@ line-height: 3.8rem;
 
 
 
- @media (max-width:1113px) {
+ @media (max-width:1114px) {
+
+    .hand-craft-text a.btn{
+        margin-left: 10%;
+    }
     .gold-one {
         margin-left: 13%;
     }
