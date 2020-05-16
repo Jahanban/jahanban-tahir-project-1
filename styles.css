@@ -54,6 +54,24 @@ h3 {
     line-height: 2.9rem;
 }
 
+/* .hero {
+    
+    width: 100%;
+    height: auto;
+} */
+
+header {
+    background-image: url(./assets/header-2.jpg);
+    width: 100%;
+    height: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-attachment: fixed;
+    height: 630px;
+    overflow: hidden;
+    position: relative;
+}
 
 
 
@@ -73,13 +91,14 @@ h3 {
     z-index: 20;
 }
 
-.hero img {
+/* .hero img {
+    background-image: url(./assets/header-2.jpg);
     float: right;
     width: 100%;
     position: relative;
     z-index: 10;
     
-}
+} */
 
 .hero-text {
     width: 100%;
@@ -116,14 +135,14 @@ h3 {
     font-family: 'lato';
     font-weight: 300;
     text-transform: capitalize;;
-}
+} 
 
-.social {
+header ul.social {
     width: 1%;
     list-style: none;
     position: absolute;
-    top: 70%;
-    bottom: 15%;
+    top: 73%;
+    /* bottom: 15%; */
     left: 93%;
     z-index: 100;
     margin: 0 auto; 
@@ -133,7 +152,7 @@ h3 {
     color: #fff;
     padding: 5px;
     font-size: 2rem;
-}
+} 
 
 
 .hand-crafted {
@@ -142,27 +161,46 @@ h3 {
     padding: 5% 7% 5%;
 }
 
-.img-hands {
+.craft-info img.img-hands {
     float: left;
-    width: 28%;
+    width: 32%;
     height: auto;
     margin-right: 5%;
     margin-top: .5%;
+    
 }
 
-.craft-info h3 {
-    margin-bottom: 0;
+.hand-craft-text {
+    /* width: 100%; */
+    /* padding: 5%; */
+    padding-top: 0;
+    padding-bottom: 5%;
+    margin-left: 30%;
+}
+
+.hand-craft-text h3 {
+    margin-top: 2%;
+margin-bottom: 2%;
 }
 
 
 
-.craft-info p {
+.hand-craft-text p {
     color: #fff;
     font-size: 2rem;
-    margin-top: 0;
-    padding-top: 2px;
-    padding-bottom: 29px; 
-}
+    margin-bottom: 10%;
+     
+}  
+
+/* .hand-crafted {
+    position: relative;
+} */
+
+/* .hand-crafted a.btn-craft{
+    padding: 5%;
+    padding: 5%;
+    margin-left: 50%;
+} */
 
 .jewels {
     background-color: #201E21;
@@ -264,7 +302,7 @@ h3 {
 }
 
 .mix-match-text{
-    padding: 5%;
+    /* padding: 5%; */
     padding: 5%;
     margin-left: 50%;
 }
@@ -385,39 +423,48 @@ line-height: 3.8rem;
 /* Media Queries for responsiveness */
 
 
-/* @media (max-width:1255px){
-    .contact-info p {
-    line-height: 20px;
+/* Media query for Ipad Pro (12.9 inch) landscape */
+
+@media  (min-width:1281px) and (max-width:1466px) {
+    header {
+        height: 630px;
+    }
+   header ul.social {
+        top: 73%;
+    }
+
 }
- .contact-info p:nth-child(2) {
-    line-height: 0px;
+
+@media (max-width: 1263px){
+    .hand-craft-text p {
     
-}
-} */
-
-/*fix Button for hand crafted */
-
-@media (max-width:1200px) {
-    .craft-info p {
-    padding-bottom: 15px;
-
+    margin-bottom: 6%;
 }
 }
 
-@media (min-width:1000px) and (max-width:1155px) {
+@media (min-width:1000px) and (max-width:1255px) {
+    .contact-info p{
+        font-size: 1.5rem;
+    }
+
+
+
+ } 
+
+
+
+
+
+
+
+
+@media (min-width:1000px) and (max-width:1190px) {
     
     .hero-text {
         left: 15%;
     }
 
-    .social {
-        top: 60%;
-    }
-    
-    
-    .craft-info .btn {
-        margin-left: 33%;
-    }
+   
 
      .gold-one {
         margin-left: 13%;
@@ -438,17 +485,13 @@ line-height: 3.8rem;
    
 }
 
-@media (min-width:1000px) and (max-width:1255px) {
-    .contact-info p{
-        font-size: 1.5rem;
-    }
-
- }
 
 
 
-/* @media (max-width:1113px) {
+
+
+ @media (max-width:1113px) {
     .gold-one {
         margin-left: 13%;
     }
-} */
+} 
