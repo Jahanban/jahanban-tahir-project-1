@@ -554,7 +554,7 @@ form input[type="email"] {
     .craft-info img.img-hands {
     float: none;
     width: 54%;
-    margin: 0 auto;
+    margin-left: 24%;
 }
     .hand-craft-text {
         margin: 0 auto;
@@ -649,48 +649,61 @@ form input[type="email"] {
     }
 
     .update-info p {
-        margin-left: 0;
+        font-size: 1.5rem;
+        margin-left: 1%;
     }
 
-    /* .sustain-info {
-        float: none;
-        position: relative;
-    }
-    .img-necklace{
-        position: absolute;
-        /* left: 50; */
-       /* left:241px;
-        bottom: -324%;
-        margin-top: 20%;
-
-    }  */
-
-    .img-ring {
-        float: none;
-        margin-top: 50%;
-        margin-left: 30%;
-    }
-
-     /* .sustain-info {
-        top: 350px;
-        left: 242px;
-        margin-top: 5%;
-    }  */
-
-    .mix-match-text {
-        margin-left: 25%;
-        width: 61%;
-    }
 }  
 
 }
 
 @media (max-width: 800px) {
+    .craft-info  img.img-hands {
+        margin-left: 27%;
+        margin-right: 0;
+    }
+
     .gold-one {
         float: none;
     }
 
-    /* .img-necklace {
-        top: 415%;
+    /* .update-info p {
+        font-size: 1.8rem;
+        margin-left: 2%;
     } */
+
+    .fav-icons {
+        padding-left: 12%;
+    }
+
+    .font-icon h3 {
+        padding-left: 19%;
+    }
+
+    .font-icon h3.second {
+        padding-left: 25%;
+    }
+
+    .font-icon i.second-icon {
+        margin-left: 9px;
+    }
+
+@media (max-width:784px) {
+
+    .social-icon a li {
+        display: none;
+    }
+    .sustain-text h3,
+    .mix-match-text h3 {
+        font-size: 4rem;
+        margin-bottom: 5%;
+    }
+
+    .update-info p {
+        font-size: 1.6rem;
+        margin-left: 2%;
+    }
+}
+
+   
 }
