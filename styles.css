@@ -690,20 +690,53 @@ form input[type="email"] {
 
 @media (max-width:784px) {
 
-    .social-icon a li {
+    .social a li {
         display: none;
     }
+    .hand-craft-text h3,
     .sustain-text h3,
     .mix-match-text h3 {
-        font-size: 4rem;
+        font-size: 3rem;
         margin-bottom: 5%;
     }
 
+    .craft-info img.img-hands,
+    .img-necklace,
+    .img-ring {
+        display: block;
+        width: 100%;
+margin: 0 auto;
+    }
+
     .update-info p {
-        font-size: 1.6rem;
+        font-size: 1.3rem;
         margin-left: 2%;
     }
 }
-
    
 }
+
+@media (max-width: 630px) {
+    .hero-text h1 {
+        font-size: 6rem;
+        line-height: 6rem;
+    }
+
+    .third-text {
+        font-size: 2.5rem;
+        margin-left: 56%;
+    }
+
+    .hand-craft-text h3 {
+        margin-left: 23%;
+    }
+
+    .contact-info {
+        margin-left: 5%;
+    }
+
+    .rights p {
+        padding-left: 20%;
+    }
+}
+
