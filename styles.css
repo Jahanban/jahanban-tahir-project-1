@@ -822,15 +822,6 @@ margin-right: -60%;
 
     header {
     background-image: url(./assets/header-1.jpg);
-    /* width: 100%;
-    height: 100%;
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 630px;
-    overflow: hidden;
-    position: relative; */
 }
 
 .hero-text h1 {
@@ -841,6 +832,7 @@ left: 21px;
 }
 
     .sustain-text h3 {
+        font-size: 2.6rem;
         margin-left: -9%;
     }
     .contact-info {
@@ -875,8 +867,88 @@ left: 21px;
     font-size: 1.5rem;
 }
 
-.right p {
+.rights p {
     padding-left: 19%;
 }
 }
 
+@media (max-width: 360px) {
+    .navbar-end a{
+        padding: 3%;
+    }
+    .sustain-text h3 {
+    font-size: 2.5rem;
+}
+}
+
+@media (max-width: 320px) {
+
+    .hand-craft-text h3 {
+    margin-left: 12%;
+}
+
+.hand-craft-text a.btn {
+    margin-left: 29%;
+}
+    .jewels h3 {
+        font-size: 3rem;
+    }
+
+     .font-icon h3.first {
+    padding-left: 13%;
+}
+
+   .font-icon h3.third {
+    padding-left: 3%;
+}
+
+.hand-craft-text p {
+    margin-bottom: 15%;
+}
+
+.sustain-text h3, 
+.mix-match-text h3 {
+    font-size: 2.5rem;
+    margin-right: -18px;
+margin-left: -13%;
+    /* margin-bottom: 5%; */
+}
+
+.img-ring {
+    padding-top: 5%;
+}
+.navbar-end a {
+    
+    padding: 3%;
+    
+}
+.update-info h3 {
+    
+    padding-left: 3%;
+    
+}
+.update-info p {
+    font-size: 1.25rem;
+    /* margin-left: -17%; */
+    /* margin-right: -60%; */
+}
+.btn-sub {
+    margin-left: 1%;
+}
+.contact-info {
+    margin-left: 22%;
+}
+
+.contact-info p {
+    font-size: 1.4rem;
+}
+
+.rights p {
+    padding-left: 16%;
+}
+
+.btn {
+    margin-bottom: 5%;
+}
+
+}
