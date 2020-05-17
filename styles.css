@@ -485,14 +485,14 @@ form input[type="email"] {
 
     .img-necklace,
     .img-ring {
-        margin-left: 30%;
+        margin-left: 23%;
         padding-top: 5%;
     }
 
     .sustain-text,
     .mix-match-text {
         padding:5%;
-        margin-left: 25%;
+        margin-left: 14%;
         margin-right: 5%;
     }
 
@@ -502,11 +502,11 @@ form input[type="email"] {
 
     .sustain-text a.btn,
     .mix-match-text a.btn {
-        margin-left: 35%;
+        margin-left: 28%;
     }
 
     .img-ring {
-        width: 55%;
+        width: 51%;
     }
 }
 
@@ -553,7 +553,7 @@ form input[type="email"] {
 
     .craft-info img.img-hands {
     float: none;
-    width: 50%;
+    width: 54%;
     margin: 0 auto;
 }
     .hand-craft-text {
@@ -564,7 +564,7 @@ form input[type="email"] {
         margin-left: 30%;
     }
     .hand-craft-text a.btn {
-    margin-left: 45%;
+    margin-left: 38%;
 }
 
   .fav-icons ul {
@@ -585,7 +585,7 @@ form input[type="email"] {
     .update-info {
         float: none;
         margin-top: 15%;
-        margin-left: 25%;
+        margin-left: 22%;
          /* background-color: red; */
     }
 
@@ -602,10 +602,15 @@ form input[type="email"] {
     .contact-info {
         text-align: center;
         margin-top: 5%;
-        /* margin-left: 30%; */
+        margin-left: 0%;
+        padding-right: 30px;
     }
     .contact-info h3 {
         margin-left: 0;
+    }
+
+    .rights p{
+        padding-right: 19%;
     }
 
     
@@ -619,7 +624,7 @@ form input[type="email"] {
 .btn-sub {
     padding-left:20%;
     padding-right: 20%;
-    margin-left:18%;
+    margin-left:12%;
     line-height: 10rem;
     font-size: 3rem;
 
