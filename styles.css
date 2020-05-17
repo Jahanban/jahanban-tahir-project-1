@@ -261,29 +261,31 @@ margin-bottom: 2%;
 
 .font-icon h3.second {
     padding-left: 15px;
-
 }
 
 
 .sustain-material {
     margin-top: 0%;
     background-color: #201E21;
-    /* position: relative; */
-
 }
 
 .img-necklace {
-    /* position: absolute; */
     left: 50%;
     width: 50%;
     height: auto;
+    float: right;
+}
+
+.sustain-text {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 5%;
+    padding-right: 55%;
 }
 
 .sustain-info {
     float: left;
-    width: 50%;
     margin-top: 0;
-    padding: 1% 5%;
 }
 
 .sustain-info h3,
@@ -295,11 +297,6 @@ margin-bottom: 2%;
     margin-top: 0;
     margin-bottom: 10%;
 }
-
-
-/* .img-necklace {
-   
-} */
 
 .img-ring {
     float: left;
@@ -458,10 +455,6 @@ form input[type="email"] {
     }
 
 
-    .sustain-info {
-        margin-top: -18px;
-    }
-
     .mix-match-text {
         margin-top: -18px;
     }
@@ -482,12 +475,47 @@ form input[type="email"] {
     }
 }
 
+@media (max-width:1060px) {
+    .sustain-info,
+    .img-necklace,
+    .mix-match-info,
+    .img-ring {
+        float: none;
+    }
+
+    .img-necklace,
+    .img-ring {
+        margin-left: 30%;
+        padding-top: 5%;
+    }
+
+    .sustain-text,
+    .mix-match-text {
+        padding:5%;
+        margin-left: 25%;
+        margin-right: 5%;
+    }
+
+    .mix-match-text h3 {
+        margin-left: 20%;
+    }
+
+    .sustain-text a.btn,
+    .mix-match-text a.btn {
+        margin-left: 35%;
+    }
+
+    .img-ring {
+        width: 55%;
+    }
+}
+
 @media (max-width: 1014px) {
     .hand-craft-text p {
         margin-left: 10%;
     }
 
-    .sustain-info p,
+    /* .sustain-info p, */
     .mix-match-text p {
         margin-bottom: 5%;
     }
@@ -503,7 +531,7 @@ form input[type="email"] {
 .social-icon{
     float: left;
 }
-   .sustain-info h3,
+   /* .sustain-info h3, */
     .mix-match-text h3 {
         margin-top: 5%;
     }
@@ -511,7 +539,7 @@ form input[type="email"] {
 
 
 @media (max-width: 980px) {
-    .sustain-info h3,
+    /* .sustain-info h3, */
     .mix-match-text h3 {
         margin-top: 0;
     }
@@ -546,7 +574,6 @@ form input[type="email"] {
     .nav-end {
         float: none;
         width: 100%;
-        background-color: red;
     }
 
     .navbar-end a {
@@ -620,17 +647,18 @@ form input[type="email"] {
         margin-left: 0;
     }
 
-    .sustain-info {
+    /* .sustain-info {
         float: none;
         position: relative;
     }
     .img-necklace{
         position: absolute;
         /* left: 50; */
-        left:241px;
+       /* left:241px;
         bottom: -324%;
+        margin-top: 20%;
 
-    } 
+    }  */
 
     .img-ring {
         float: none;
@@ -638,17 +666,26 @@ form input[type="email"] {
         margin-left: 30%;
     }
 
-     .sustain-info {
+     /* .sustain-info {
         top: 350px;
         left: 242px;
-    } 
+        margin-top: 5%;
+    }  */
 
     .mix-match-text {
         margin-left: 25%;
         width: 61%;
     }
 }  
-    
 
 }
 
+@media (max-width: 800px) {
+    .gold-one {
+        float: none;
+    }
+
+    /* .img-necklace {
+        top: 415%;
+    } */
+}
