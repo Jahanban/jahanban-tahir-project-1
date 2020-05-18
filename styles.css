@@ -14,8 +14,7 @@ html {
 
 body {
     margin: 0;
-        font-family: 'Italiana', serif;
-
+    font-family: 'Italiana', serif;
     font-family: 'Lato', sans-serif;
 }
 
@@ -54,11 +53,7 @@ h3 {
     line-height: 2.9rem;
 }
 
-/* .hero {
-    
-    width: 100%;
-    height: auto;
-} */
+/* Header styling */
 
 header {
     background-image: url(./assets/header-2.jpg);
@@ -73,7 +68,7 @@ header {
     position: relative;
 }
 
-
+/* Navigation Bar */
 
 .navbar a li {
     float: left;
@@ -91,14 +86,7 @@ header {
     z-index: 20;
 }
 
-/* .hero img {
-    background-image: url(./assets/header-2.jpg);
-    float: right;
-    width: 100%;
-    position: relative;
-    z-index: 10;
-    
-} */
+/* Main text */
 
 .hero-text {
     width: 100%;
@@ -118,8 +106,6 @@ header {
 }
 
 
-
-
 .second-text {
     display: block;
     margin-left: 65%;
@@ -137,12 +123,13 @@ header {
     text-transform: capitalize;;
 } 
 
+/* Social media links styling */
+
 header ul.social {
     width: 1%;
     list-style: none;
     position: absolute;
     top: 73%;
-    /* bottom: 15%; */
     left: 93%;
     z-index: 100;
     margin: 0 auto; 
@@ -154,6 +141,7 @@ header ul.social {
     font-size: 2rem;
 } 
 
+/* Design for Hand Crafted */
 
 .hand-crafted {
     margin-top: 0%;
@@ -171,8 +159,6 @@ header ul.social {
 }
 
 .hand-craft-text {
-    /* width: 100%; */
-    /* padding: 5%; */
     padding-top: 0;
     padding-bottom: 5%;
     margin-left: 30%;
@@ -183,16 +169,13 @@ header ul.social {
 margin-bottom: 2%;
 }
 
-
-
 .hand-craft-text p {
     color: #fff;
     font-size: 2rem;
     margin-bottom: 10%;
-     
 }  
 
-
+/* Latest collection */
 
 .jewels {
     background-color: #201E21;
@@ -217,6 +200,7 @@ margin-bottom: 2%;
     margin-bottom: 4%;
 }
 
+/* Catalogue, Events and Collaboration banner */
 
 .banner {
     margin-top: 0;
@@ -234,20 +218,12 @@ margin-bottom: 2%;
     float: left;
     list-style: none;
     margin-left: 17%;
-    /* padding-right: 7%; */
 }
-
-/* .font-icon {
-    margin-left: 30%;
-} */
 
 .font-icon i {
     font-size: 7rem;
     padding-left: 25%;
 }
-
-/* .gold-one i.second */
-
 
 .font-icon a {
     text-decoration: none;
@@ -263,6 +239,7 @@ margin-bottom: 2%;
     padding-left: 15px;
 }
 
+/* Sustainable and mix and match material */
 
 .sustain-material {
     margin-top: 0%;
@@ -302,8 +279,6 @@ margin-bottom: 2%;
     float: left;
     width: 50%;
     height: auto;
-    /* margin-top: 7%; */
-    
 }
 
 .mix-match-info {
@@ -317,6 +292,8 @@ margin-bottom: 2%;
     margin-left: 50%;
 }
 
+/* Website footer */
+
 footer {
     width: 100%;
     background-color: #201E21;
@@ -324,6 +301,8 @@ footer {
     padding: 5%;
     margin-top: 0;
 }
+
+/* Navigation bar on footer */
 
 .nav-end {
     float: left;
@@ -346,6 +325,7 @@ footer {
     border: 0;
 }
 
+/* Subscription */
 
 .update-info {
     margin-left: 15%;
@@ -353,14 +333,13 @@ footer {
     width: 50%;
 }
 
+/* Contact info */
 
 .contact-info {
 text-align: right;
 margin-left: 5%;
 max-width: 94%;
 }
-
-
 
 
 .update-info h3,
@@ -403,7 +382,6 @@ form input[type="email"] {
     font-family: 'Italiana';
     font-weight: 400;
     line-height: 3.8rem;
-    /* background-color: red; */
 }
 
 .rights p {
@@ -416,9 +394,40 @@ form input[type="email"] {
     padding: 5px;
 }
 
+/* Hamburger menu */
 
+.burger {
+    display: none;
+}
 
-/* Media Queries for responsiveness */
+.ham-menu {
+    position: fixed;
+    color: #fff;
+    margin-left: 88%;
+    margin-top: 10px;
+    font-size: 50px;
+    z-index: 40;
+    cursor: pointer;
+}
+
+ #res-nav {
+    position: fixed;
+    height: 60px;
+    width: 60px;
+    top: 0px;
+    right: 55px;
+    z-index: 10;
+    opacity: 0;
+}
+
+.nav-ham a li {
+    color: #FABA63;
+    font-size: 2rem;
+    line-height: 29px;
+    font-family:'Lato';
+    font-weight: 400;
+    list-style-type: none;
+}
 
 
 /* Media query for Ipad Pro (12.9 inch) landscape */
@@ -432,8 +441,6 @@ form input[type="email"] {
     }
 
 }
-
-
 
 @media (max-width: 1263px){
     .hand-craft-text p {
@@ -477,17 +484,9 @@ form input[type="email"] {
 
 @media (max-width:1060px) {
     .sustain-info,
-    /* .img-necklace, */
-    .mix-match-info
-    /* .img-ring */ {
+    .mix-match-info{
         float: none;
     }
-
-    /* .img-necklace,
-    .img-ring {
-        margin-left: 23%;
-        padding-top: 5%;
-    } */
 
     .sustain-text,
     .mix-match-text {
@@ -505,18 +504,13 @@ form input[type="email"] {
         margin-left: 28%;
     }
 
-    /* .img-ring {
-        width: 51%;
-    } */
-
-     
     .img-necklace,
     .img-ring {
         float: none;
         display: block;
         width: 100%;
         height: auto;
-margin: 0 auto;
+        margin: 0 auto;
     }
 }
 
@@ -525,7 +519,6 @@ margin: 0 auto;
         margin-left: 10%;
     }
 
-    /* .sustain-info p, */
     .mix-match-text p {
         margin-bottom: 5%;
     }
@@ -541,7 +534,7 @@ margin: 0 auto;
 .social-icon{
     float: left;
 }
-   /* .sustain-info h3, */
+   
     .mix-match-text h3 {
         margin-top: 5%;
     }
@@ -549,7 +542,7 @@ margin: 0 auto;
 
 
 @media (max-width: 980px) {
-    /* .sustain-info h3, */
+    
     .mix-match-text h3 {
         margin-top: 0;
     }
@@ -561,11 +554,7 @@ margin: 0 auto;
         left: 80%;
     }
 
-    /* .craft-info img.img-hands {
-    float: none;
-    width: 54%;
-    margin-left: 24%;
-} */
+  
     .hand-craft-text {
         margin: 0 auto;
     }
@@ -574,10 +563,10 @@ margin: 0 auto;
         margin-left: 30%;
     }
     .hand-craft-text a.btn {
-    margin-left: 38%;
-}
+        margin-left: 38%;
+    }
 
-  .fav-icons ul {
+    .fav-icons ul {
         padding-left: 0px;
     }
 
@@ -589,14 +578,13 @@ margin: 0 auto;
     .navbar-end a {
         float: left;
         padding: 5%;
-        /* margin-bottom: 3%; */
+       
     }
 
     .update-info {
         float: none;
         margin-top: 15%;
         margin-left: 22%;
-         /* background-color: red; */
     }
 
     .update-info h3 {
@@ -623,36 +611,74 @@ margin: 0 auto;
         padding-right: 19%;
     }
 
-    
-
     form input[type="email"] {
         margin-left: 0%;
-    margin-right: 2%;
-    width: 100%;
-}
-
-.btn-sub {
-    padding-left:20%;
-    padding-right: 20%;
-    margin-left:12%;
-    line-height: 10rem;
-    font-size: 3rem;
-
-}
-
-.rights p {
-    padding-left: 9%;
-}
-
-
-@media (max-width: 895px) {
-    .gold-one {
-        margin-left: 15%;
+        margin-right: 2%;
+        width: 100%;
     }
+
+    .btn-sub {
+        padding-left:20%;
+        padding-right: 20%;
+        margin-left:12%;
+        line-height: 10rem;
+        font-size: 3rem;
+
+    }
+
+    .rights p {
+        padding-left: 9%;
+    }
+
+}
+@media (max-width: 895px) {
+
+
+/* For hamburger nav menu */
 
     .navbar {
         display: none;
     }
+
+    .burger {
+        display: block;
+    }
+     
+
+    nav {
+        position: fixed;
+        right: -9999px;
+        z-index: 999999;
+        top: 58px;
+        background: rgba(0, 0, 0, 0.75);
+        transition: all 0.5s ease-in;
+        -moz-transition: all 0.5s;
+        -ms-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        -webkit-transition: all 0.5s;
+        width: 50vw;
+        height: 35vh;
+    }
+
+    .nav-ham a li {
+        padding: 5%;
+        margin: 0 auto;
+    }
+
+    .nav-ham a{
+        text-decoration: none;
+    }
+
+
+    #res-nav:checked~nav {
+        right: 0%;
+    }
+
+    .gold-one {
+        margin-left: 15%;
+    }
+
+
 
     .hero-text h1 {
         left: 8%;
@@ -665,22 +691,13 @@ margin: 0 auto;
 
 }  
 
-}
+
 
 @media (max-width: 800px) {
-    /* .craft-info  img.img-hands {
-        margin-left: 27%;
-        margin-right: 0;
-    } */
 
     .gold-one {
         float: none;
     }
-
-    /* .update-info p {
-        font-size: 1.8rem;
-        margin-left: 2%;
-    } */
 
     .fav-icons {
         padding-left: 12%;
@@ -697,12 +714,13 @@ margin: 0 auto;
     .font-icon i.second-icon {
         margin-left: 9px;
     }
-
+}
 @media (max-width:784px) {
 
     .social a li {
         display: none;
     }
+
     .hand-craft-text h3,
     .sustain-text h3,
     .mix-match-text h3 {
@@ -716,40 +734,35 @@ margin: 0 auto;
     }
 
     .hand-craft-text p {
-    margin-left: 0%;
-}
+        margin-left: 0%;
+    }
 
-    .craft-info img.img-hands 
-    { 
+    .craft-info img.img-hands { 
         display: block;
         width: 100%;
-margin: 0 auto;
-    margin-bottom: 10%;
-}
+        margin: 0 auto;
+        margin-bottom: 10%;
+    }
 
-.jewel-collection img:nth-child(3) {
-    display: none;
-}
+    .jewel-collection img:nth-child(3) {
+        display: none;
+    }
 
-.jewel-collection img {
-    width: 50%;
-    height: auto;
-    float: left;
-    /* margin-left: 0;
-    margin-top: 4%;
-    margin-bottom: 4%; */
-    margin: 0 auto;
-}
+    .jewel-collection img {
+        width: 50%;
+        height: auto;
+        float: left;
+        margin: 0 auto;
+    }
 
-.jewel-collection img:nth-child(1) {
-    padding-right: 5%;
-}
+    .jewel-collection img:nth-child(1) {
+        padding-right: 5%;
+    }
 
-.jewel-collection img:nth-child(2) {
-    padding-left: 5%;
-}
+    .jewel-collection img:nth-child(2) {
+        padding-left: 5%;
+    }
     
-
     .update-info p {
         font-size: 1.3rem;
         margin-left: 2%;
@@ -760,34 +773,28 @@ margin: 0 auto;
     }
 
     .update-info form input {
-        
     margin-left: -50%;
     margin-right: 0;
     margin-top: auto;
     margin-bottom: auto;
     width: 213%;
-}
-}
+    }
 
-input {
-    text-align: center;
-}
 
-.update-info p {
-    font-size: 2.5rem;
-    margin-left: -17%;
-    margin-right: -100%;
-}
+    input {
+        text-align: center;
+    }
+
+    .update-info p {
+        font-size: 1.8rem;
+        margin-left: -20%;
+
+    }
     
 }
-   
-
 
 @media (max-width: 630px) {
 
-    /* h3 {
-        font-size: 1rem;;
-    } */
     .hero-text h1 {
         font-size: 6rem;
         line-height: 6rem;
@@ -805,36 +812,37 @@ input {
     .contact-info {
         margin-left: 5%;
     }
-.update-info p {
-font-size: 1.5rem;
-margin-left: -17%;
-margin-right: -60%;
 
-}
+    .update-info p {
+        font-size: 1.5rem;
+        margin-left: -17%;
+        margin-right: -60%;
+    }
 
-.update-info h3 {
-    margin-left: 15%;
-}
-    
+    .update-info h3 {
+        margin-left: 15%;
+    }
+        
 }
 
 @media (max-width: 450px) {
 
     header {
-    background-image: url(./assets/header-1.jpg);
-}
+        background-image: url(./assets/header-1.jpg);
+    }
 
-.hero-text h1 {
-    font-size: 5rem;
-    line-height: 5rem;
-    padding-top: 111px;
-left: 21px;
-}
+    .hero-text h1 {
+        font-size: 5rem;
+        line-height: 5rem;
+        padding-top: 111px;
+        left: 21px;
+    }
 
     .sustain-text h3 {
         font-size: 2.6rem;
         margin-left: -9%;
     }
+
     .contact-info {
         margin-left: 12%;
     }
@@ -846,109 +854,116 @@ left: 21px;
     .mix-match-text p,
     .sustain-text p {
     margin-bottom: 14%;
-}
-.font-icon h3.third {
-    padding-left: 10%;
-}
+    }
 
-.jewels h3 {
-    font-size: 3.5rem;
-}
-.navbar-end {
-    padding-left: 0px;
-}
-.update-info h3 {
-    margin-left: 8%;
-    padding-left: 14%;
-    font-size: 2rem;
-}
+    .font-icon h3.third {
+        padding-left: 10%;
+    }
 
-.contact-info p {
-    font-size: 1.5rem;
-}
+    .jewels h3 {
+        font-size: 3.5rem;
+    }
 
-.rights p {
-    padding-left: 19%;
-}
+    .navbar-end {
+        padding-left: 0px;
+    }
+
+    .update-info h3 {
+        margin-left: 8%;
+        padding-left: 14%;
+        font-size: 2rem;
+    }
+
+    .contact-info p {
+        font-size: 1.5rem;
+    }
+
+    .rights p {
+        padding-left: 19%;
+    }
 }
 
 @media (max-width: 360px) {
     .navbar-end a{
         padding: 3%;
     }
+
     .sustain-text h3 {
-    font-size: 2.5rem;
-}
+        font-size: 2.5rem;
+    }
 }
 
 @media (max-width: 320px) {
 
     .hand-craft-text h3 {
-    margin-left: 12%;
-}
+        margin-left: 12%;
+    }
 
-.hand-craft-text a.btn {
-    margin-left: 29%;
-}
+    .hand-craft-text a.btn {
+        margin-left: 29%;
+    }
     .jewels h3 {
         font-size: 3rem;
     }
 
-     .font-icon h3.first {
-    padding-left: 13%;
-}
+    .font-icon h3.first {
+        padding-left: 13%;
+    }
 
    .font-icon h3.third {
-    padding-left: 3%;
-}
+        padding-left: 3%;
+    }   
 
-.hand-craft-text p {
-    margin-bottom: 15%;
-}
+    .hand-craft-text p {
+        margin-bottom: 15%;
+    }
 
-.sustain-text h3, 
-.mix-match-text h3 {
-    font-size: 2.5rem;
-    margin-right: -18px;
-margin-left: -13%;
-    /* margin-bottom: 5%; */
-}
+    .sustain-text h3, 
+    .mix-match-text h3 {
+        font-size: 2.5rem;
+        margin-right: -18px;
+        margin-left: -13%;
+    }
 
-.img-ring {
-    padding-top: 5%;
-}
-.navbar-end a {
-    
-    padding: 3%;
-    
-}
-.update-info h3 {
-    
-    padding-left: 3%;
-    
-}
-.update-info p {
-    font-size: 1.25rem;
-    /* margin-left: -17%; */
-    /* margin-right: -60%; */
-}
-.btn-sub {
-    margin-left: 1%;
-}
-.contact-info {
-    margin-left: 22%;
-}
+    .img-ring {
+        padding-top: 5%;
+    }
 
-.contact-info p {
-    font-size: 1.4rem;
-}
 
-.rights p {
-    padding-left: 16%;
-}
+    .navbar-end a {
+        padding: 3%;
+    }
 
-.btn {
-    margin-bottom: 5%;
-}
 
+    .update-info h3 {
+        padding-left: 3%;
+    }
+
+
+    .update-info p {
+        font-size: 1.25rem;
+    }
+
+    .btn-sub {
+        margin-left: 1%;
+    }
+
+    .contact-info {
+        margin-left: 22%;
+    }
+
+    .contact-info p {
+        font-size: 1.4rem;
+    }
+
+    .rights p {
+        padding-left: 16%;
+    }
+
+    .btn {
+        margin-bottom: 5%;
+    }
+    #res-nav:checked~nav {
+        right: 0%;
+    }
 }
